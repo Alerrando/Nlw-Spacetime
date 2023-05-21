@@ -1,6 +1,8 @@
 import React from "react";
 import { User } from "lucide-react";
- 
+import nlwLogo from "../assets/nlw-spacetime-logo.svg";
+import Image from "next/image";
+
 export default function Home() {
 	return (
 		<main className="grid grid-cols-2 min-h-screen">
@@ -16,6 +18,10 @@ export default function Home() {
 
 					<p className="text-sm leading-snug max-w-[140px]"><span className="underline">Crie sua conta</span>  e salve suas memórias!</p>
 				</a>
+
+				<div className="">
+					<Image src={nlwLogo} alt="NLW SPACETIME" />
+				</div>
 			</div>
 			
 			<div className="flex flex-col p-16 bg-[url(../assets/bg-stars.svg)] bg-cover">
