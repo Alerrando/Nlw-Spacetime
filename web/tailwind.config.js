@@ -21,6 +21,10 @@ module.exports = {
 				alt: "var(--font-bai-jamjuree)",
 			},
 
+			fontSize: {
+				"5xl": "2.5rem",
+			},
+
 			color: {
 				gray: {
 					50: "#eaeaea",
